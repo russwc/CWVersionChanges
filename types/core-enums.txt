@@ -1,0 +1,1540 @@
+[
+  {
+    "Name": "AbcCatClass",
+    "Values": [
+      {
+        "StringValue": "A",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "B",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "C",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "NA",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "ActionType",
+    "Values": [
+      {
+        "StringValue": "Unknown",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "ActivityUpdate",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Email",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "WebHook",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "ApiVersionEnum",
+    "Values": [
+      {
+        "StringValue": "V20121",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "V2013",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "V2014",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "V2015",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "V15_1",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "V15_1_1",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "V15_1_2",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "V15_1_3",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "V15_1_4",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "V15_1_5",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "V15_1_6",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "V15_2",
+        "NumberValue": 11
+      },
+      {
+        "StringValue": "V15_2_1",
+        "NumberValue": 12
+      }
+    ]
+  },
+  {
+    "Name": "ApplyLevel",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Domain",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Group",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "User",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "AssetRatingMethod",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "CONDITIONRATING",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "SIDEWALKRATING",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "TREEDAMAGERATING",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "CommentActivityType",
+    "Values": [
+      {
+        "StringValue": "Request",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WorkOrder",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "CaTask",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "CaObject",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "CaCorrection",
+        "NumberValue": 5
+      }
+    ]
+  },
+  {
+    "Name": "ContractorRateType",
+    "Values": [
+      {
+        "StringValue": "Hourly",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Fixed",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "PerUnit",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "CostUsage",
+    "Values": [
+      {
+        "StringValue": "Actual",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Projected",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Template",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Reported",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "CustomFieldValueSource",
+    "Values": [
+      {
+        "StringValue": "DEFAULT",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "PARENTWO",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "CWEntityType",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Feature",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Object",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Other",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "DateSelection",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Exact",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Relative",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "DayOfWeek",
+    "Values": [
+      {
+        "StringValue": "Sunday",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Monday",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Tuesday",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Wednesday",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Thursday",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "Friday",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "Saturday",
+        "NumberValue": 6
+      }
+    ]
+  },
+  {
+    "Name": "DistressSeverity",
+    "Values": [
+      {
+        "StringValue": "L",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "M",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "H",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "NA",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "EquipmentRateType",
+    "Values": [
+      {
+        "StringValue": "Hourly",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Fixed",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "EventSourceType",
+    "Values": [
+      {
+        "StringValue": "Request",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "WorkOrder",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Inspection",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Permit",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Comment",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "WorkOrderLabor",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "RequestLabor",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "Unknown",
+        "NumberValue": 7
+      }
+    ]
+  },
+  {
+    "Name": "EventTriggerType",
+    "Values": [
+      {
+        "StringValue": "Always",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Equal",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "NotEqual",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "LessThan",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "GreaterThan",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "Contains",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "NotContains",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "NullOrEmpty",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "NotNullOrEmpty",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "Unknown",
+        "NumberValue": 9
+      }
+    ]
+  },
+  {
+    "Name": "FieldDataType",
+    "Values": [
+      {
+        "StringValue": "VARCHAR",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "NUMERIC",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "DATE",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "GISRight",
+    "Values": [
+      {
+        "StringValue": "View",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Attribute",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Geometry",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "GISServiceType",
+    "Values": [
+      {
+        "StringValue": "DYNAMICMAP",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "TILEDMAP",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "IMAGEMAP",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "GEOCODE",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "GEOMETRY",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "FEATURELAYER",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "WEBMAP",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "HEATMAP",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "KMLLAYER",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "WMSLAYER",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "GEODATA",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "SOE",
+        "NumberValue": 11
+      },
+      {
+        "StringValue": "UNKNOWN",
+        "NumberValue": 12
+      },
+      {
+        "StringValue": "RESOURCEPROXY",
+        "NumberValue": 13
+      },
+      {
+        "StringValue": "TILEPACKAGE",
+        "NumberValue": 14
+      },
+      {
+        "StringValue": "PRINTING",
+        "NumberValue": 15
+      },
+      {
+        "StringValue": "ROUTING",
+        "NumberValue": 16
+      },
+      {
+        "StringValue": "VECTORTILE",
+        "NumberValue": 17
+      }
+    ]
+  },
+  {
+    "Name": "InspQuestionType",
+    "Values": [
+      {
+        "StringValue": "Single",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Multiple",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Assets",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "LaborCategory",
+    "Values": [
+      {
+        "StringValue": "Employee",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Contractor",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "LaborRateType",
+    "Values": [
+      {
+        "StringValue": "Hourly",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Overtime",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Emergency",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Fixed",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "PerUnit",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "LicensedExtension",
+    "Values": [
+      {
+        "StringValue": "UnknownExtension",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "CwAnalytics",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WebHooks",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "PLLPublicApp",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "ActivityUpdate",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "SingleSignOn",
+        "NumberValue": 5
+      }
+    ]
+  },
+  {
+    "Name": "LicensedFeature",
+    "Values": [
+      {
+        "StringValue": "UnknownFeature",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "ViewInspections",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "EditInspections",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "ViewServiceRequest",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "EditServiceRequest",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "ViewWorkOrder",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "EditWorkOrder",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "EquipmentCheckOut",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "OfficeField",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "Respond",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "Eurl",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "PaverInterface",
+        "NumberValue": 11
+      },
+      {
+        "StringValue": "Contracts",
+        "NumberValue": 12
+      },
+      {
+        "StringValue": "Storeroom",
+        "NumberValue": 13
+      },
+      {
+        "StringValue": "PLL",
+        "NumberValue": 14
+      },
+      {
+        "StringValue": "Cw4XL",
+        "NumberValue": 15
+      },
+      {
+        "StringValue": "TableEditor",
+        "NumberValue": 16
+      },
+      {
+        "StringValue": "CCTVInterface",
+        "NumberValue": 17
+      },
+      {
+        "StringValue": "MobileAndroid",
+        "NumberValue": 18
+      },
+      {
+        "StringValue": "MobileiOS",
+        "NumberValue": 19
+      },
+      {
+        "StringValue": "PerformanceBudgeting",
+        "NumberValue": 20
+      },
+      {
+        "StringValue": "Insights",
+        "NumberValue": 21
+      },
+      {
+        "StringValue": "RespondCase",
+        "NumberValue": 22
+      },
+      {
+        "StringValue": "RespondInspection",
+        "NumberValue": 23
+      },
+      {
+        "StringValue": "RespondServiceRequest",
+        "NumberValue": 24
+      },
+      {
+        "StringValue": "RespondTaskManager",
+        "NumberValue": 25
+      },
+      {
+        "StringValue": "RespondWorkOrder",
+        "NumberValue": 26
+      }
+    ]
+  },
+  {
+    "Name": "MaterialCostType",
+    "Values": [
+      {
+        "StringValue": "AVERAGE",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "CURRENT",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "FIFO",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "LIFO",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "NativeAppWorkActivityType",
+    "Values": [
+      {
+        "StringValue": "Case",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Inspection",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "ServiceRequest",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "WorkOrder",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "NumericValueMode",
+    "Values": [
+      {
+        "StringValue": "Nulls",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "MinMax",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "ListOfValues",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "NotListOfValues",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Disjoint",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "Invalid",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "NotNull",
+        "NumberValue": 6
+      }
+    ]
+  },
+  {
+    "Name": "PacpMappingDirection",
+    "Values": [
+      {
+        "StringValue": "Export",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Import",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "ExportImport",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "QASequenceModel",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Linear",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Branch",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "QuestAnswerFormat",
+    "Values": [
+      {
+        "StringValue": "THISTEXT",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "DATE",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "YES",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "NO",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "UNKNOWN",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "FREETEXT",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "CHECKED",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "UNCHECK",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "CODEDESC",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "DESCSCORE",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "CALCULATED",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "NUMERIC",
+        "NumberValue": 11
+      }
+    ]
+  },
+  {
+    "Name": "QueueStatus",
+    "Values": [
+      {
+        "StringValue": "Pending",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Processing",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Complete",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Failed",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "RateAddMethod",
+    "Values": [
+      {
+        "StringValue": "Percent",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Fixed",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "ReadingActionType",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Interval",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Milestone",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Threshold",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "RelativeDate",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Next",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Last",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Current",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Range",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "RelativeDateUnit",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Minutes",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Hours",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Days",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Weeks",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "Months",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "Years",
+        "NumberValue": 6
+      }
+    ]
+  },
+  {
+    "Name": "RepeatFromDate",
+    "Values": [
+      {
+        "StringValue": "ADATE",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "PROJSTARTDATE",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "ACTUALFINISHDATE",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "RepeatIntervalUnit",
+    "Values": [
+      {
+        "StringValue": "D",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "W",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "M",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Y",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "RepeatType",
+    "Values": [
+      {
+        "StringValue": "NEVER",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "ONCE",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "EVERY",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "SearchType",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Request",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WorkOrder",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Inspection",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "Contract",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "Permit",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "GIS",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "PermitTask",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "PermitAddress",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "InspCommon",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "Case",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "WorkOrderEntity",
+        "NumberValue": 11
+      },
+      {
+        "StringValue": "StoreTransaction",
+        "NumberValue": 12
+      },
+      {
+        "StringValue": "Requisition",
+        "NumberValue": 13
+      },
+      {
+        "StringValue": "Material",
+        "NumberValue": 14
+      },
+      {
+        "StringValue": "WorkActivity",
+        "NumberValue": 15
+      },
+      {
+        "StringValue": "MaterialLeaf",
+        "NumberValue": 16
+      },
+      {
+        "StringValue": "WoTemplate",
+        "NumberValue": 17
+      },
+      {
+        "StringValue": "Unknown",
+        "NumberValue": 18
+      },
+      {
+        "StringValue": "Employee",
+        "NumberValue": 19
+      },
+      {
+        "StringValue": "MessageQueue",
+        "NumberValue": 20
+      },
+      {
+        "StringValue": "Analytics",
+        "NumberValue": 21
+      },
+      {
+        "StringValue": "TokenState",
+        "NumberValue": 22
+      },
+      {
+        "StringValue": "AssetCalculationResult",
+        "NumberValue": 23
+      },
+      {
+        "StringValue": "Equipment",
+        "NumberValue": 24
+      },
+      {
+        "StringValue": "CustomerAccount",
+        "NumberValue": 25
+      },
+      {
+        "StringValue": "InspTemplate",
+        "NumberValue": 26
+      },
+      {
+        "StringValue": "ProblemLeaf",
+        "NumberValue": 27
+      }
+    ]
+  },
+  {
+    "Name": "SearchView",
+    "Values": [
+      {
+        "StringValue": "Grid",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Calendar",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Map",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Frequency",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "WorkOrderEntity",
+        "NumberValue": 4
+      }
+    ]
+  },
+  {
+    "Name": "SourceEventType",
+    "Values": [
+      {
+        "StringValue": "WorkOrderManualEmail",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "WorkOrderSubmitToChanged",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WorkOrderCreated",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "WorkOrderClosed",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "WorkOrderPrintQueue",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "WorkOrderCanceled",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "WorkOrderDeleted",
+        "NumberValue": 6
+      },
+      {
+        "StringValue": "RequestManualCallerEmail",
+        "NumberValue": 7
+      },
+      {
+        "StringValue": "RequestManualEmail",
+        "NumberValue": 8
+      },
+      {
+        "StringValue": "RequestSubmitToChanged",
+        "NumberValue": 9
+      },
+      {
+        "StringValue": "RequestDispatchedToChanged",
+        "NumberValue": 10
+      },
+      {
+        "StringValue": "RequestCreated",
+        "NumberValue": 11
+      },
+      {
+        "StringValue": "RequestClosed",
+        "NumberValue": 12
+      },
+      {
+        "StringValue": "RequestCanceled",
+        "NumberValue": 13
+      },
+      {
+        "StringValue": "RequestDeleted",
+        "NumberValue": 14
+      },
+      {
+        "StringValue": "InspectionManualEmail",
+        "NumberValue": 15
+      },
+      {
+        "StringValue": "InspectionCreated",
+        "NumberValue": 16
+      },
+      {
+        "StringValue": "InspectionSubmitToChanged",
+        "NumberValue": 17
+      },
+      {
+        "StringValue": "InspectionClosed",
+        "NumberValue": 18
+      },
+      {
+        "StringValue": "InspectionDeleted",
+        "NumberValue": 19
+      },
+      {
+        "StringValue": "InspectionCanceled",
+        "NumberValue": 20
+      },
+      {
+        "StringValue": "CommentMention",
+        "NumberValue": 21
+      },
+      {
+        "StringValue": "RequestLaborAdded",
+        "NumberValue": 22
+      },
+      {
+        "StringValue": "RequestLaborDeleted",
+        "NumberValue": 23
+      },
+      {
+        "StringValue": "WorkOrderLaborAdded",
+        "NumberValue": 24
+      },
+      {
+        "StringValue": "WorkOrderLaborDeleted",
+        "NumberValue": 25
+      },
+      {
+        "StringValue": "CaObjectCreated",
+        "NumberValue": 26
+      },
+      {
+        "StringValue": "CaObjectUpdated",
+        "NumberValue": 27
+      },
+      {
+        "StringValue": "CaObjectDeleted",
+        "NumberValue": 28
+      },
+      {
+        "StringValue": "Unknown",
+        "NumberValue": 29
+      },
+      {
+        "StringValue": "WorkOrderStatusChanged",
+        "NumberValue": 30
+      },
+      {
+        "StringValue": "RequestStatusChanged",
+        "NumberValue": 31
+      },
+      {
+        "StringValue": "InspectionStatusChanged",
+        "NumberValue": 32
+      }
+    ]
+  },
+  {
+    "Name": "TimeIntervalUnit",
+    "Values": [
+      {
+        "StringValue": "HOUR",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "DAY",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WEEK",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "MONTH",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "TransactionType",
+    "Values": [
+      {
+        "StringValue": "NULL",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "AUDIT",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "ISSUE",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "RECEIVE",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "TRANSFER",
+        "NumberValue": 4
+      },
+      {
+        "StringValue": "FRTRASH",
+        "NumberValue": 5
+      },
+      {
+        "StringValue": "TOTRASH",
+        "NumberValue": 6
+      }
+    ]
+  },
+  {
+    "Name": "TreeNodeTextType",
+    "Values": [
+      {
+        "StringValue": "C",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "CD",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "D",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "TreeNodeType",
+    "Values": [
+      {
+        "StringValue": "R",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "N",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "L",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "Null",
+        "NumberValue": 3
+      }
+    ]
+  },
+  {
+    "Name": "WebHookOutputType",
+    "Values": [
+      {
+        "StringValue": "JSON",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "CSV",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "WebHookPacketModel",
+    "Values": [
+      {
+        "StringValue": "Simple",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Custom",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "WidgetContainerTabType",
+    "Values": [
+      {
+        "StringValue": "Domain",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "User",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "WidgetContainerType",
+    "Values": [
+      {
+        "StringValue": "Domain",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "User",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "WOEvent",
+    "Values": [
+      {
+        "StringValue": "CLOSE",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "INITIATE",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "WOExpenseType",
+    "Values": [
+      {
+        "StringValue": "MAINT",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "CIP",
+        "NumberValue": 1
+      }
+    ]
+  },
+  {
+    "Name": "WOOutputType",
+    "Values": [
+      {
+        "StringValue": "WorkOrder",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Map",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "WorkOrderAndMap",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "WorkDurationUnit",
+    "Values": [
+      {
+        "StringValue": "Null",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "H",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "D",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "WOStage",
+    "Values": [
+      {
+        "StringValue": "PROPOSED",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "ACTUAL",
+        "NumberValue": 1
+      }
+    ]
+  }
+]

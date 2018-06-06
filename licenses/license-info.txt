@@ -1,0 +1,1686 @@
+{
+  "FeatureLicenseInfo": [
+    {
+      "FeatureName": "ViewInspections",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "INSPINTEGRATION",
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WMINSPECTION",
+        "WMVIEW"
+      ]
+    },
+    {
+      "FeatureName": "EditInspections",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "INSPINTEGRATION",
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WMINSPECTION"
+      ]
+    },
+    {
+      "FeatureName": "ViewServiceRequest",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "SRINTEGRATION",
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WMINSPECTION",
+        "WMVIEW"
+      ]
+    },
+    {
+      "FeatureName": "EditServiceRequest",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "SRINTEGRATION",
+        "WMEDIT",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "FeatureName": "ViewWorkOrder",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WMINSPECTION",
+        "WMVIEW",
+        "WOINTEGRATION",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "FeatureName": "EditWorkOrder",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WOINTEGRATION",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "FeatureName": "EquipmentCheckOut",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "EQUIPMENTCHECKOUT",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "FeatureName": "OfficeField",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CALLCENTER",
+        "CASEEDIT",
+        "CASEEDITPLUS",
+        "CASEVIEW",
+        "WMEDIT",
+        "WMEDITPLUS",
+        "WMINSPECTION",
+        "WMVIEW"
+      ]
+    },
+    {
+      "FeatureName": "Respond",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    },
+    {
+      "FeatureName": "Eurl",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "EURL"
+      ]
+    },
+    {
+      "FeatureName": "PaverInterface",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "PAVERINTERFACE"
+      ]
+    },
+    {
+      "FeatureName": "Contracts",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CONTRACTS"
+      ]
+    },
+    {
+      "FeatureName": "Storeroom",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "STOREROOM"
+      ]
+    },
+    {
+      "FeatureName": "PLL",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEEDIT",
+        "CASEEDITPLUS",
+        "CASEVIEW"
+      ]
+    },
+    {
+      "FeatureName": "Cw4XL",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "FeatureName": "TableEditor",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDIT",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "FeatureName": "CCTVInterface",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CCTVINTERFACE"
+      ]
+    },
+    {
+      "FeatureName": "MobileAndroid",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "MOBILEANDROID"
+      ]
+    },
+    {
+      "FeatureName": "MobileiOS",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "MOBILEIOS"
+      ]
+    },
+    {
+      "FeatureName": "PerformanceBudgeting",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "PERFORMANCEBUDGETING"
+      ]
+    },
+    {
+      "FeatureName": "Insights",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "INSIGHTS"
+      ]
+    },
+    {
+      "FeatureName": "RespondCase",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    },
+    {
+      "FeatureName": "RespondInspection",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    },
+    {
+      "FeatureName": "RespondServiceRequest",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    },
+    {
+      "FeatureName": "RespondTaskManager",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    },
+    {
+      "FeatureName": "RespondWorkOrder",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "RESPOND"
+      ]
+    }
+  ],
+  "ExtensionLicenseInfo": [
+    {
+      "ExentsionName": "CwAnalytics",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CWBI"
+      ]
+    },
+    {
+      "ExentsionName": "WebHooks",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WEBHOOKS"
+      ]
+    },
+    {
+      "ExentsionName": "PLLPublicApp",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "PLLPUBLICAPP"
+      ]
+    },
+    {
+      "ExentsionName": "ActivityUpdate",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "ACTIVITYUPDATE"
+      ]
+    },
+    {
+      "ExentsionName": "SingleSignOn",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "SINGLESIGNON"
+      ]
+    }
+  ],
+  "LicenseLevelInfo": [
+    {
+      "LicenseLevelName": "CASEAPI",
+      "LicenseLevelDisplayName": "PLL Case API",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [],
+      "GrantedServices": [
+        {
+          "Name": "CaseAddress",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseAddressService"
+        },
+        {
+          "Name": "CaseCondition",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseConditionService"
+        },
+        {
+          "Name": "CaseContractor",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseContractorService"
+        },
+        {
+          "Name": "CaseDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataDetailService"
+        },
+        {
+          "Name": "CaseDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataGroupService"
+        },
+        {
+          "Name": "CaseDataListValues",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataListValuesService"
+        },
+        {
+          "Name": "CaseFees",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesService"
+        },
+        {
+          "Name": "CaseFeesDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataDetailService"
+        },
+        {
+          "Name": "CaseFeesDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataGroupService"
+        },
+        {
+          "Name": "CaseFlags",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFlagsService"
+        },
+        {
+          "Name": "CaseInspectionRequest",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInspectionRequestService"
+        },
+        {
+          "Name": "CaseInstReleases",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstReleasesService"
+        },
+        {
+          "Name": "CaseInstrument",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstrumentService"
+        },
+        {
+          "Name": "CaseNotes",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseNotesService"
+        },
+        {
+          "Name": "CaseObject",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseObjectService"
+        },
+        {
+          "Name": "CasePayment",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentService"
+        },
+        {
+          "Name": "CasePaymentRefund",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentRefundService"
+        },
+        {
+          "Name": "CasePeople",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePeopleService"
+        },
+        {
+          "Name": "CaseRelDocs",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseRelDocsService"
+        },
+        {
+          "Name": "CaseTask",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseTaskService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "CASEAPIEXTENDED",
+      "LicenseLevelDisplayName": "PLL Case API Extended",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [],
+      "GrantedServices": [
+        {
+          "Name": "CaseAddress",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseAddressService"
+        },
+        {
+          "Name": "CaseCondition",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseConditionService"
+        },
+        {
+          "Name": "CaseContractor",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseContractorService"
+        },
+        {
+          "Name": "CaseCorrections",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseCorrectionsService"
+        },
+        {
+          "Name": "CaseCorrStatus",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseCorrStatusService"
+        },
+        {
+          "Name": "CaseDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataDetailService"
+        },
+        {
+          "Name": "CaseDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataGroupService"
+        },
+        {
+          "Name": "CaseDataListValues",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataListValuesService"
+        },
+        {
+          "Name": "CaseFees",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesService"
+        },
+        {
+          "Name": "CaseFeesDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataDetailService"
+        },
+        {
+          "Name": "CaseFeesDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataGroupService"
+        },
+        {
+          "Name": "CaseFlags",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFlagsService"
+        },
+        {
+          "Name": "CaseInspectionRequest",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInspectionRequestService"
+        },
+        {
+          "Name": "CaseInstReleases",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstReleasesService"
+        },
+        {
+          "Name": "CaseInstrument",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstrumentService"
+        },
+        {
+          "Name": "CaseLicense",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseLicenseService"
+        },
+        {
+          "Name": "CaseNotes",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseNotesService"
+        },
+        {
+          "Name": "CaseObject",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseObjectService"
+        },
+        {
+          "Name": "CasePayment",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentService"
+        },
+        {
+          "Name": "CasePaymentRefund",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentRefundService"
+        },
+        {
+          "Name": "CasePeople",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePeopleService"
+        },
+        {
+          "Name": "CaseRelDocs",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseRelDocsService"
+        },
+        {
+          "Name": "CaseTask",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseTaskService"
+        },
+        {
+          "Name": "CaseTaskComments",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseTaskCommentsService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "CASEEDITPLUS",
+      "LicenseLevelDisplayName": "PLL Edit+ (Standard)",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "OfficeField",
+        "PLL"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "CaseAddress",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseAddressService"
+        },
+        {
+          "Name": "CaseCondition",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseConditionService"
+        },
+        {
+          "Name": "CaseContractor",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseContractorService"
+        },
+        {
+          "Name": "CaseCorrections",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseCorrectionsService"
+        },
+        {
+          "Name": "CaseCorrStatus",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseCorrStatusService"
+        },
+        {
+          "Name": "CaseDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataDetailService"
+        },
+        {
+          "Name": "CaseDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataGroupService"
+        },
+        {
+          "Name": "CaseDataListValues",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseDataListValuesService"
+        },
+        {
+          "Name": "CaseFees",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesService"
+        },
+        {
+          "Name": "CaseFeesDataDetail",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataDetailService"
+        },
+        {
+          "Name": "CaseFeesDataGroup",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFeesDataGroupService"
+        },
+        {
+          "Name": "CaseFlags",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseFlagsService"
+        },
+        {
+          "Name": "CaseInspectionRequest",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInspectionRequestService"
+        },
+        {
+          "Name": "CaseInstReleases",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstReleasesService"
+        },
+        {
+          "Name": "CaseInstrument",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseInstrumentService"
+        },
+        {
+          "Name": "CaseLicense",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseLicenseService"
+        },
+        {
+          "Name": "CaseNotes",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseNotesService"
+        },
+        {
+          "Name": "CaseObject",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseObjectService"
+        },
+        {
+          "Name": "CasePayment",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentService"
+        },
+        {
+          "Name": "CasePaymentRefund",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePaymentRefundService"
+        },
+        {
+          "Name": "CasePeople",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CasePeopleService"
+        },
+        {
+          "Name": "CaseRelDocs",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseRelDocsService"
+        },
+        {
+          "Name": "CaseTask",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseTaskService"
+        },
+        {
+          "Name": "CaseTaskComments",
+          "AreaName": "Pll",
+          "NameInLicenseMapping": "Pll_CaseTaskCommentsService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "INSPINTEGRATION",
+      "LicenseLevelDisplayName": "Insp API",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewInspections",
+        "EditInspections"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "Inspection",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_InspectionService"
+        },
+        {
+          "Name": "MapService",
+          "AreaName": "Gis",
+          "NameInLicenseMapping": "Gis_MapServiceService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "METRICSINTEGRATION",
+      "LicenseLevelDisplayName": "Metrics API",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [],
+      "GrantedServices": [
+        {
+          "Name": "Reading",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ReadingService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "RESPOND",
+      "LicenseLevelDisplayName": "Respond Web App",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "RespondCase",
+        "RespondInspection",
+        "RespondServiceRequest",
+        "RespondTaskManager",
+        "RespondWorkOrder",
+        "Respond"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "Reading",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ReadingService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "SRINTEGRATION",
+      "LicenseLevelDisplayName": "SR API",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewServiceRequest",
+        "EditServiceRequest"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "LaborCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_LaborCostService"
+        },
+        {
+          "Name": "ServiceRequest",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ServiceRequestService"
+        },
+        {
+          "Name": "MapService",
+          "AreaName": "Gis",
+          "NameInLicenseMapping": "Gis_MapServiceService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "WMEDITPLUS",
+      "LicenseLevelDisplayName": "AMS Edit+ (Standard)",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewInspections",
+        "EditInspections",
+        "ViewServiceRequest",
+        "EditServiceRequest",
+        "ViewWorkOrder",
+        "EditWorkOrder",
+        "OfficeField",
+        "Cw4XL",
+        "EquipmentCheckOut",
+        "TableEditor"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "WorkOrderTemplate",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderTemplateService"
+        },
+        {
+          "Name": "InspectionTemplate",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_InspectionTemplateService"
+        },
+        {
+          "Name": "ServiceRequestTemplate",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ServiceRequestTemplateService"
+        },
+        {
+          "Name": "CustomerAccount",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_CustomerAccountService"
+        },
+        {
+          "Name": "WorkOrderEntity",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderEntityService"
+        },
+        {
+          "Name": "Equipment",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_EquipmentService"
+        },
+        {
+          "Name": "EquipmentCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_EquipmentCostService"
+        },
+        {
+          "Name": "Inspection",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_InspectionService"
+        },
+        {
+          "Name": "LaborCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_LaborCostService"
+        },
+        {
+          "Name": "Material",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_MaterialService"
+        },
+        {
+          "Name": "MaterialCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_MaterialCostService"
+        },
+        {
+          "Name": "Reading",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ReadingService"
+        },
+        {
+          "Name": "ServiceRequest",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_ServiceRequestService"
+        },
+        {
+          "Name": "Tasks",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_TasksService"
+        },
+        {
+          "Name": "WorkOrder",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderService"
+        },
+        {
+          "Name": "MapService",
+          "AreaName": "Gis",
+          "NameInLicenseMapping": "Gis_MapServiceService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "WOINTEGRATION",
+      "LicenseLevelDisplayName": "WO API",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewWorkOrder",
+        "EditWorkOrder"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "WorkOrder",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderService"
+        },
+        {
+          "Name": "MapService",
+          "AreaName": "Gis",
+          "NameInLicenseMapping": "Gis_MapServiceService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "WOINTEGRATIONEXTENDED",
+      "LicenseLevelDisplayName": "WO API Extended",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewWorkOrder",
+        "EditWorkOrder"
+      ],
+      "GrantedServices": [
+        {
+          "Name": "Equipment",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_EquipmentService"
+        },
+        {
+          "Name": "EquipmentCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_EquipmentCostService"
+        },
+        {
+          "Name": "LaborCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_LaborCostService"
+        },
+        {
+          "Name": "MaterialCost",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_MaterialCostService"
+        },
+        {
+          "Name": "Material",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_MaterialService"
+        },
+        {
+          "Name": "Tasks",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_TasksService"
+        },
+        {
+          "Name": "WorkOrder",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderService"
+        },
+        {
+          "Name": "MapService",
+          "AreaName": "Gis",
+          "NameInLicenseMapping": "Gis_MapServiceService"
+        },
+        {
+          "Name": "WorkOrderEntity",
+          "AreaName": "Ams",
+          "NameInLicenseMapping": "Ams_WorkOrderEntityService"
+        },
+        {
+          "Name": "CostSummary",
+          "AreaName": "General",
+          "NameInLicenseMapping": "General_CostSummaryService"
+        }
+      ]
+    },
+    {
+      "LicenseLevelName": "ACTIVITYUPDATE",
+      "LicenseLevelDisplayName": "Activity Update",
+      "GrantedExtensions": [
+        "ActivityUpdate"
+      ],
+      "GrantedFeatures": [],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CWBI",
+      "LicenseLevelDisplayName": "CW Analytics",
+      "GrantedExtensions": [
+        "CwAnalytics"
+      ],
+      "GrantedFeatures": [],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "PLLPUBLICAPP",
+      "LicenseLevelDisplayName": "PLL Public Application",
+      "GrantedExtensions": [
+        "PLLPublicApp"
+      ],
+      "GrantedFeatures": [],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "SINGLESIGNON",
+      "LicenseLevelDisplayName": "Single Sign-On",
+      "GrantedExtensions": [
+        "SingleSignOn"
+      ],
+      "GrantedFeatures": [],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "WEBHOOKS",
+      "LicenseLevelDisplayName": "Web Hooks",
+      "GrantedExtensions": [
+        "WebHooks"
+      ],
+      "GrantedFeatures": [],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CALLCENTER",
+      "LicenseLevelDisplayName": "Call Center",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "OfficeField"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CASEEDIT",
+      "LicenseLevelDisplayName": "PLL Edit (Essentials)",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "OfficeField",
+        "PLL"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CASEVIEW",
+      "LicenseLevelDisplayName": "PLL View",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "OfficeField",
+        "PLL"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CCTVINTERFACE",
+      "LicenseLevelDisplayName": "CCTV Interface",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "CCTVInterface"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "CONTRACTS",
+      "LicenseLevelDisplayName": "Contracts",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "Contracts"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "EQUIPMENTCHECKOUT",
+      "LicenseLevelDisplayName": "Equipment Check Out",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "EquipmentCheckOut"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "EURL",
+      "LicenseLevelDisplayName": "Enterprise URL",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "Eurl"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "INSIGHTS",
+      "LicenseLevelDisplayName": "Insights",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "Insights"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "MOBILEANDROID",
+      "LicenseLevelDisplayName": "Mobile Android",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "MobileAndroid"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "MOBILEIOS",
+      "LicenseLevelDisplayName": "Mobile iOS",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "MobileiOS"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "PAVERINTERFACE",
+      "LicenseLevelDisplayName": "Paver Interface",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "PaverInterface"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "PERFORMANCEBUDGETING",
+      "LicenseLevelDisplayName": "Performance Budgeting",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "PerformanceBudgeting"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "STOREROOM",
+      "LicenseLevelDisplayName": "Storeroom",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "Storeroom"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "WMEDIT",
+      "LicenseLevelDisplayName": "AMS Edit (Essentials)",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "TableEditor",
+        "ViewInspections",
+        "EditInspections",
+        "ViewServiceRequest",
+        "EditServiceRequest",
+        "ViewWorkOrder",
+        "EditWorkOrder",
+        "OfficeField"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "WMINSPECTION",
+      "LicenseLevelDisplayName": "AMS Inspection",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewInspections",
+        "EditInspections",
+        "ViewServiceRequest",
+        "ViewWorkOrder",
+        "OfficeField"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "WMVIEW",
+      "LicenseLevelDisplayName": "AMS View",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "ViewInspections",
+        "ViewServiceRequest",
+        "ViewWorkOrder",
+        "OfficeField"
+      ],
+      "GrantedServices": []
+    }
+  ],
+  "ServiceLicenseInfo": [
+    {
+      "ServiceName": "AppData",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Attachments",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Authentication",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Bookmark",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseAddress",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseAsset",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseChildObject",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseCondition",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseContractor",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseCorrections",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseCorrStatus",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseDataDetail",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseDataGroup",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseDataListValues",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseDeposit",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseFeesDataDetail",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseFeesDataGroup",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseFees",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseFlags",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseInspectionRequest",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseInstReleases",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseInstrument",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseLicense",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseNotes",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseObjectComments",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseObject",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CasePaymentRefund",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CasePayment",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CasePeople",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseRelDocs",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "Case",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseTaskComments",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseTaskResults",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CaseTask",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "CASEAPI",
+        "CASEAPIEXTENDED",
+        "CASEEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CaseViolations",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Codes",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Comment",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Condition",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Contractor",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CostSummary",
+      "ServiceArea": "General",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "Crew",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "CustomerAccount",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "CustomerCall",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Deposit",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Employee",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Entity",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "EquipmentCost",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "Equipment",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "EventLayer",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "FeeSetup",
+      "ServiceArea": "Pll",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Inbox",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Inspection",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "INSPINTEGRATION",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "InspectionTemplate",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "LaborCost",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "SRINTEGRATION",
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "Localization",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Map",
+      "ServiceArea": "Gis",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "INSPINTEGRATION",
+        "SRINTEGRATION",
+        "WMEDITPLUS",
+        "WOINTEGRATION",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "MaterialCost",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "Material",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "MessageQueue",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "PluginLayout",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Preferences",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "QuickSearch",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Reading",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "METRICSINTEGRATION",
+        "RESPOND",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "RecentActivity",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Relates",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Search",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Security",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "ServiceRequest",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "SRINTEGRATION",
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "ServiceRequestTemplate",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS"
+      ]
+    },
+    {
+      "ServiceName": "Storeroom",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "Tasks",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "Token",
+      "ServiceArea": "General",
+      "LicenseIsRequired": false,
+      "GrantedByLicenseLevels": []
+    },
+    {
+      "ServiceName": "WorkOrderEntity",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "WorkOrder",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS",
+        "WOINTEGRATION",
+        "WOINTEGRATIONEXTENDED"
+      ]
+    },
+    {
+      "ServiceName": "WorkOrderTemplate",
+      "ServiceArea": "Ams",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WMEDITPLUS"
+      ]
+    }
+  ]
+}

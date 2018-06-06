@@ -1,0 +1,3511 @@
+[
+  {
+    "ServiceName": "AppData",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Attachments",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Authentication",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidField",
+        "Code": 30,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "InactiveUser",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "UnknownError",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "NumberOfFailures",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidCredentials",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "LoginName",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "EmployeeNotFoundByLoginName",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Bookmark",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseAddress",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseAsset",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseChildObject",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseCondition",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseContractor",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseCorrections",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseCorrStatus",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseDataDetail",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseDataGroup",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseDataListValues",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseDeposit",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseFeesDataDetail",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseFeesDataGroup",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseFees",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseFlags",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseInspectionRequest",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseInstReleases",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseInstrument",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseLicense",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseNotes",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseObjectComments",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseObject",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CasePaymentRefund",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CasePayment",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CasePeople",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseRelDocs",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Case",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseTaskComments",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CaseTaskResults",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "ResultCodeIsNull",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StatusCode",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StatusCodeIsInvalid",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CaseStatusId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CaseStatusIdIsInvalid",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "SkipTaskFlagIsNull",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "SkipTaskFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "SkipTaskFlagIsInvalid",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "NextTaskFlagIsNull",
+        "Code": 7,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "NextTaskFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NextTaskFlagIsInvalid",
+        "Code": 8,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ExtendExpirationDateFlagIsNull",
+        "Code": 9,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ExtendExpirationDateFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ExtendExpirationDateFlagIsInvalid",
+        "Code": 10,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CloseTaskFlagIsNull",
+        "Code": 11,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CloseTaskFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CloseTaskFlagIsInvalid",
+        "Code": 12,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ReInsertFlagIsNull",
+        "Code": 13,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ReInsertFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ReInsertFlagIsInvalid",
+        "Code": 14,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InsertFlagIsNull",
+        "Code": 15,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "InsertFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InsertFlagIsInvalid",
+        "Code": 16,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "CaseTask",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "DatabaseErrorWhileAdjustingTasks",
+        "Code": 35,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TargetStartDate",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "DateTime",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "TargetEndDate",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "DateTime",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TargetEndDateCannotBeEarlierThanTargetStartDate",
+        "Code": 34,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CaObjectId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "GeoAreaId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "GeoDetailId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskNotValidForCaseParcelAddress",
+        "Code": 33,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ResultSetIdIsNull",
+        "Code": 32,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ResultSetId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ResultSetIdIsInvalid",
+        "Code": 31,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ResponsibleUserId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ResponsibleIdIsInvalidForInspection",
+        "Code": 30,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ResponsibleUserId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ResponsibleUserIdIsInvalid",
+        "Code": 29,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DivisionCode",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "DivisionCodeIsInvalid",
+        "Code": 28,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ResponsibleDivId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ResponsibleDivIdIsInvalid",
+        "Code": 27,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DepartmentCode",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "DepartmentCodeIsInvalid",
+        "Code": 26,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "HearingType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "HearingTypeIsInvalid",
+        "Code": 24,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "HearingTypeId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "HearingTypeIdIsInvalid",
+        "Code": 23,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "GeoDetail",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "GeoDetailIsInvalid",
+        "Code": 22,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "GeoDetailId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "GeoDetailIdIsInvalid",
+        "Code": 21,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "GeoArea",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "GeoAreaIsInvalid",
+        "Code": 20,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "GeoAreaId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "GeoAreaIdIsInvalid",
+        "Code": 19,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DisciplineCode",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "DisciplineCodeIsInvalid",
+        "Code": 18,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DisciplineId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "DisciplineIdIsInvalid",
+        "Code": 17,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CorrGroupCode",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CorrGroupCodeIsInvalid",
+        "Code": 16,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CorrGroupId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CorrGroupIdIsInvalid",
+        "Code": 15,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskTypeIsInvalid",
+        "Code": 14,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CalWeekDayFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CalWeekDayFlagIsInvalid",
+        "Code": 13,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskGeoFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskGeoFlagIsInvalid",
+        "Code": 12,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "AutoSchduleInspFlg",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "AutoScheduleInspFlagIsInvalid",
+        "Code": 11,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ExpiredFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ExpiredFlagIsInvalid",
+        "Code": 10,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CannotInsertBetweenMilestonesWhenWorkHasStartedAfterStartPoint",
+        "Code": 9,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "AllExistingTasksAtStartPointAreComplete",
+        "Code": 8,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StartPointLessThanFirstExistingStartPoint",
+        "Code": 7,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StartPointGreaterThanMaxEndPoint",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "EndPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StartPointGreaterThanEndpoint",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "StartPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "EndPoint",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StartPointOrEndPointNotSet",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskIsExpired",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskIdIsInvalid",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CaObjectId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CaObjectIdIsInvalid",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ResponsibleDeptId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ResponsibleDeptIdIsInvalid",
+        "Code": 25,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CouldNotCheckSecurity",
+        "Code": 56,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "UnknownError",
+        "Code": 54,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CaTaskId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CaTaskIdIsNull",
+        "Code": 37,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DefDurationDays",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int64",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "DefDurationDaysIsNull",
+        "Code": 38,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ExpiredFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ExpiredFlagIsNull",
+        "Code": 39,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "AutoSchduleInspIsFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "AutoSchduleInspIsFlagNull",
+        "Code": 40,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskGeoFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskGeoFlagIsNull",
+        "Code": 41,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CallWeekDayFlag",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CallWeekDayFlagIsNull",
+        "Code": 42,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "TaskType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "TaskTypeIsNull",
+        "Code": 43,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "AllChecklistItemsMustBeCompleted",
+        "Code": 46,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "LoginIdIsInvalidForInspection",
+        "Code": 45,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "LoginIdIsInvalid",
+        "Code": 44,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "TargetStartDateCannotBeEarlierThanTaskAvailableDate",
+        "Code": 50,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ActualEndDateCannotBeBeforeAvailableDate",
+        "Code": 47,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ActualStartDateCannotBeAfterActualEndDate",
+        "Code": 49,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "CaseViolations",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Codes",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Comment",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ActivityId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidActivityId",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V15_1"
+      },
+      {
+        "Parameters": [],
+        "Name": "MissingComments",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V15_1"
+      },
+      {
+        "Parameters": [],
+        "Name": "UnknownError",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V15_1"
+      },
+      {
+        "Parameters": [],
+        "Name": "MissingActivityIds",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V15_1"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "CommentId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidCommentId",
+        "Code": 9,
+        "Type": 2,
+        "Version": "V15_1"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Condition",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Contractor",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CostSummary",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Crew",
+    "Messages": []
+  },
+  {
+    "ServiceName": "CustomerAccount",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "UnknownError",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "CustomerCall",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Deposit",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Employee",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidField",
+        "Code": 30,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ErrorCreatingEmployee",
+        "Code": 31,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "NotAuthorizedToCreateEmployee",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "EmployeeSid",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorUpdatingEmployee",
+        "Code": 32,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "DomainId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToUpdateDomain",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ItemType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "Id",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningItemNotFound",
+        "Code": 60,
+        "Type": 1,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Entity",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningEmptyOrNullField",
+        "Code": 61,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "EntityType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorUnknownEntityType",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "EquipmentCost",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Equipment",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidField",
+        "Code": 30,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "NotAuthorizedToCreateEquipment",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "ErrorCreatingEquipment",
+        "Code": 31,
+        "Type": 2,
+        "Version": "V15_2"
+      }
+    ]
+  },
+  {
+    "ServiceName": "EventLayer",
+    "Messages": []
+  },
+  {
+    "ServiceName": "FeeSetup",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Inbox",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerTabId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidWidgetContainerTabId",
+        "Code": 11,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerTabId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CannotUpdateDomainWidgetContainerTab",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerTabId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CannotUpdateUserWidgetContainerTab",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetZoneId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidWidgetZoneId",
+        "Code": 14,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidWidgetType",
+        "Code": 13,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidWidgetContainerId",
+        "Code": 10,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CannotUpdateDomainWidgetContainer",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "CannotUpdateUserWidgetContainer",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidWidgetId",
+        "Code": 12,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "InboxDirection",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidInboxDirection",
+        "Code": 9,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorMovingWidget",
+        "Code": 7,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WidgetContainerTabId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorMovingWidgetContainerTab",
+        "Code": 8,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Inspection",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningEmptyOrNullField",
+        "Code": 61,
+        "Type": 1,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "InspectionTemplate",
+    "Messages": []
+  },
+  {
+    "ServiceName": "LaborCost",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "WorkOrderIdIsEmpty",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CannotAddActualCostToProposedWorkOrder",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "EmployeeSidsAndContractorSidsAreNull",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "MaxHours",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Decimal",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "MinHours",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Decimal",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "Hours",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Decimal",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidHours",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "EmployeeSid",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "EmployeeNotFound",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ContractorSid",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ContractorNotFound",
+        "Code": 7,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidContractorRateType",
+        "Code": 8,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WorkOrderId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToAddLaborToWorkOrder",
+        "Code": 9,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Localization",
+    "Messages": []
+  },
+  {
+    "ServiceName": "MapService",
+    "Messages": []
+  },
+  {
+    "ServiceName": "MaterialCost",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Material",
+    "Messages": []
+  },
+  {
+    "ServiceName": "MessageQueue",
+    "Messages": []
+  },
+  {
+    "ServiceName": "PluginLayout",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Preferences",
+    "Messages": [
+      {
+        "Parameters": [
+          {
+            "ParameterName": "LoginName",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "Unauthorized",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "QuickSearch",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Reading",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "ReadingIdsRequired",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ReadingId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorDeletingReading",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "RecentActivity",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Relates",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Search",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Security",
+    "Messages": []
+  },
+  {
+    "ServiceName": "ServiceRequest",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "UnknownError",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "RequestId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToUpdateRequest",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ItemType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "Id",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningItemNotFound",
+        "Code": 60,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningEmptyOrNullField",
+        "Code": 61,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "RequestId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToViewRequest",
+        "Code": 3,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "RequestId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToCancelRequest",
+        "Code": 6,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "RequestId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorRequiredFields",
+        "Code": 33,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "RequestId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorRequiredCustomFields",
+        "Code": 34,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidField",
+        "Code": 30,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ItemType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "Id",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ErrorItemNotFound",
+        "Code": 35,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ProblemSid",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToCreateRequest",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ErrorStatusCantBeCanceled",
+        "Code": 32,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ErrorStatusCantBeClosed",
+        "Code": 31,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "ServiceRequestTemplate",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Storeroom",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "MaterialNotViewable",
+        "Code": 48,
+        "Type": 0,
+        "Version": "V15_2"
+      },
+      {
+        "Parameters": [],
+        "Name": "StoreroomDisabled",
+        "Code": 2,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "LoginName",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "UserNotLicensed",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Storeroom",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "StoreroomNotAuthorized",
+        "Code": 6,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidMaterialSid",
+        "Code": 17,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "MaterialNotSplittable",
+        "Code": 9,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidStoreroomStock",
+        "Code": 7,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidSource",
+        "Code": 24,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ParameterName",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "ParameterValue",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Object",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidParameter",
+        "Code": 1,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidQuantity",
+        "Code": 21,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "MissingIssueTo",
+        "Code": 10,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InsufficientStock",
+        "Code": 8,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ItemInvalidEmployeeSid",
+        "Code": 15,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidWorkOrderId",
+        "Code": 30,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidDestination",
+        "Code": 13,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidMaterialCostId",
+        "Code": 18,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidMaterialUsageType",
+        "Code": 19,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidTransactionId",
+        "Code": 28,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidUnitsRequired",
+        "Code": 29,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "QuantityLargerThanUnitsRequired",
+        "Code": 35,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ItemId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "ItemError",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidRequisitionItemId",
+        "Code": 23,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CannotReceiveFromCancelledRequisitionItem",
+        "Code": 33,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CannotReceiveFromCompletedRequisitionItem",
+        "Code": 34,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidItemRequisitionSid",
+        "Code": 22,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CannotReceiveFromCancelledRequisition",
+        "Code": 31,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "CannotReceiveFromCompletedRequisition",
+        "Code": 32,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "SupplierNameNotPopulated",
+        "Code": 47,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Message",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "UnknownError",
+        "Code": 5,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidSupplierSid",
+        "Code": 27,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidSupplierMaterial",
+        "Code": 26,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "SourceIsDestination",
+        "Code": 40,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidItemStoreroom",
+        "Code": 25,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ParameterName",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "InvalidItemParameter",
+        "Code": 1,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidParentMaterialSid",
+        "Code": 20,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "InvalidRequisitionSid",
+        "Code": 22,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "RequisitionMustHaveAnItem",
+        "Code": 41,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "JustificationRequired",
+        "Code": 39,
+        "Type": 0,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "SupplierMaterialIdRequired",
+        "Code": 46,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "Tasks",
+    "Messages": []
+  },
+  {
+    "ServiceName": "Token",
+    "Messages": []
+  },
+  {
+    "ServiceName": "WorkOrderEntity",
+    "Messages": []
+  },
+  {
+    "ServiceName": "WorkOrder",
+    "Messages": [
+      {
+        "Parameters": [],
+        "Name": "InspectionIdsAreRequired",
+        "Code": 15,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "WorkOrderIdIsRequired",
+        "Code": 12,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WorkOrderId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "InspectionId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "Int32",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": false,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningInspectionAlreadyAssociatedToWorkOrder",
+        "Code": 64,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "ItemType",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          },
+          {
+            "ParameterName": "Id",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningItemNotFound",
+        "Code": 60,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [],
+        "Name": "ServiceRequestIdsAreRequired",
+        "Code": 13,
+        "Type": 2,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "Field",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "WarningEmptyOrNullField",
+        "Code": 61,
+        "Type": 1,
+        "Version": "V2015"
+      },
+      {
+        "Parameters": [
+          {
+            "ParameterName": "WorkOrderId",
+            "IsGenericParameter": false,
+            "Comments": null,
+            "TypeName": "String",
+            "IsCwType": false,
+            "IsCwEnum": false,
+            "IsGenericType": false,
+            "IsNullable": true,
+            "DeclaringType": null,
+            "GenericArguments": null,
+            "BaseType": null,
+            "Parameters": null,
+            "InheritedParameters": null,
+            "Constants": null,
+            "InheritedConstants": null
+          }
+        ],
+        "Name": "NotAuthorizedToUpdateWorkOrder",
+        "Code": 4,
+        "Type": 2,
+        "Version": "V2015"
+      }
+    ]
+  },
+  {
+    "ServiceName": "WorkOrderTemplate",
+    "Messages": []
+  }
+]

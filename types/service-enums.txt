@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "CoreResponseMessageType",
+    "Values": [
+      {
+        "StringValue": "Success",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Warning",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Error",
+        "NumberValue": 2
+      }
+    ]
+  },
+  {
+    "Name": "CoreResponseStatus",
+    "Values": [
+      {
+        "StringValue": "Ok",
+        "NumberValue": 0
+      },
+      {
+        "StringValue": "Error",
+        "NumberValue": 1
+      },
+      {
+        "StringValue": "Unauthorized",
+        "NumberValue": 2
+      },
+      {
+        "StringValue": "InvalidCredentials",
+        "NumberValue": 3
+      },
+      {
+        "StringValue": "ConnectionError",
+        "NumberValue": -1
+      }
+    ]
+  }
+]
