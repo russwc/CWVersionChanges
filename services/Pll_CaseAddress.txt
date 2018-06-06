@@ -12,7 +12,7 @@
       "IsFileUpload": false,
       "DeprecatedSince": null,
       "Description": "Add Case Address",
-      "Version": "V2014",
+      "Version": "V15_2",
       "ResponseType": {
         "TypeName": "AddResponse",
         "IsCwType": true,

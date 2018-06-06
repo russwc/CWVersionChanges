@@ -1290,12 +1290,12 @@
           "Version": "V15_2"
         },
         {
-          "Code": 2,
+          "Code": 3,
           "Name": "StoreroomDisabled",
           "Version": "V2015"
         },
         {
-          "Code": 4,
+          "Code": 5,
           "Name": "UserNotLicensed",
           "Version": "V2015"
         },
@@ -2255,7 +2255,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 1,
+          "Code": 2,
           "Name": "InvalidParameter",
           "Version": "V2015"
         },
@@ -3359,12 +3359,12 @@
       "InheritedRequestParams": [],
       "ResponseMessages": [
         {
-          "Code": 2,
+          "Code": 3,
           "Name": "StoreroomDisabled",
           "Version": "V2015"
         },
         {
-          "Code": 1,
+          "Code": 2,
           "Name": "InvalidParameter",
           "Version": "V2015"
         },
@@ -3444,7 +3444,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 5,
+          "Code": 1,
           "Name": "ItemError",
           "Version": "V2015"
         },
@@ -6257,7 +6257,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 5,
+          "Code": 1,
           "Name": "UnknownError",
           "Version": "V2015"
         }
@@ -8316,7 +8316,7 @@
       "InheritedRequestParams": [],
       "ResponseMessages": [
         {
-          "Code": 1,
+          "Code": 2,
           "Name": "InvalidParameter",
           "Version": "V2015"
         },
@@ -8366,7 +8366,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 5,
+          "Code": 1,
           "Name": "ItemError",
           "Version": "V2015"
         }
@@ -9290,7 +9290,7 @@
       "InheritedRequestParams": [],
       "ResponseMessages": [
         {
-          "Code": 1,
+          "Code": 2,
           "Name": "InvalidParameter",
           "Version": "V2015"
         },
@@ -9305,7 +9305,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 1,
+          "Code": 2,
           "Name": "InvalidItemParameter",
           "Version": "V2015"
         },
@@ -13857,7 +13857,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 5,
+          "Code": 1,
           "Name": "UnknownError",
           "Version": "V2015"
         },
@@ -14933,7 +14933,7 @@
           "Version": "V2015"
         },
         {
-          "Code": 5,
+          "Code": 1,
           "Name": "UnknownError",
           "Version": "V2015"
         }

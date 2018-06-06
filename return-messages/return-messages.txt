@@ -2942,7 +2942,7 @@
       {
         "Parameters": [],
         "Name": "StoreroomDisabled",
-        "Code": 2,
+        "Code": 3,
         "Type": 2,
         "Version": "V2015"
       },
@@ -2967,7 +2967,7 @@
           }
         ],
         "Name": "UserNotLicensed",
-        "Code": 4,
+        "Code": 5,
         "Type": 2,
         "Version": "V2015"
       },
@@ -3062,7 +3062,7 @@
           }
         ],
         "Name": "InvalidParameter",
-        "Code": 1,
+        "Code": 2,
         "Type": 2,
         "Version": "V2015"
       },
@@ -3164,7 +3164,7 @@
           }
         ],
         "Name": "ItemError",
-        "Code": 5,
+        "Code": 1,
         "Type": 2,
         "Version": "V2015"
       },
@@ -3238,7 +3238,7 @@
           }
         ],
         "Name": "UnknownError",
-        "Code": 5,
+        "Code": 1,
         "Type": 2,
         "Version": "V2015"
       },
@@ -3291,7 +3291,7 @@
           }
         ],
         "Name": "InvalidItemParameter",
-        "Code": 1,
+        "Code": 2,
         "Type": 0,
         "Version": "V2015"
       },

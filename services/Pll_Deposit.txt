@@ -12,7 +12,7 @@
       "IsFileUpload": false,
       "DeprecatedSince": null,
       "Description": "Get All Deposits",
-      "Version": "V2014",
+      "Version": "V15_2",
       "ResponseType": {
         "TypeName": "AllResponse",
         "IsCwType": true,
@@ -299,7 +299,7 @@
       "IsFileUpload": false,
       "DeprecatedSince": null,
       "Description": "Search for Deposit",
-      "Version": "V2014",
+      "Version": "V15_2",
       "ResponseType": {
         "TypeName": "SearchResponse",
         "IsCwType": true,

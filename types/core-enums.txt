@@ -95,6 +95,18 @@
       {
         "StringValue": "V15_2_1",
         "NumberValue": 12
+      },
+      {
+        "StringValue": "V15_2_2",
+        "NumberValue": 13
+      },
+      {
+        "StringValue": "V15_2_3",
+        "NumberValue": 14
+      },
+      {
+        "StringValue": "V15_2_4",
+        "NumberValue": 15
       }
     ]
   },
@@ -708,6 +720,10 @@
       {
         "StringValue": "RespondWorkOrder",
         "NumberValue": 26
+      },
+      {
+        "StringValue": "Workload",
+        "NumberValue": 27
       }
     ]
   },

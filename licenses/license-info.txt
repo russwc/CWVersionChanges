@@ -213,6 +213,13 @@
       "GrantedByLicenseLevels": [
         "RESPOND"
       ]
+    },
+    {
+      "FeatureName": "Workload",
+      "LicenseIsRequired": true,
+      "GrantedByLicenseLevels": [
+        "WORKLOAD"
+      ]
     }
   ],
   "ExtensionLicenseInfo": [
@@ -1083,6 +1090,15 @@
         "ViewServiceRequest",
         "ViewWorkOrder",
         "OfficeField"
+      ],
+      "GrantedServices": []
+    },
+    {
+      "LicenseLevelName": "WORKLOAD",
+      "LicenseLevelDisplayName": "Workload",
+      "GrantedExtensions": [],
+      "GrantedFeatures": [
+        "Workload"
       ],
       "GrantedServices": []
     }
