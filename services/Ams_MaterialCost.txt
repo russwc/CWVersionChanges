@@ -882,6 +882,25 @@
           "InheritedParameters": null,
           "Constants": null,
           "InheritedConstants": null
+        },
+        {
+          "Version": "V15_2_7",
+          "IsRequired": false,
+          "ParameterName": "CombineIssuesByMaterialSid",
+          "IsGenericParameter": false,
+          "Comments": "Combine issues with the same MaterialSid into a single commit, default is true",
+          "TypeName": "Boolean",
+          "IsCwType": false,
+          "IsCwEnum": false,
+          "IsGenericType": false,
+          "IsNullable": true,
+          "DeclaringType": null,
+          "GenericArguments": null,
+          "BaseType": null,
+          "Parameters": null,
+          "InheritedParameters": null,
+          "Constants": null,
+          "InheritedConstants": null
         }
       ],
       "InheritedRequestParams": [],
@@ -1191,6 +1210,23 @@
               "InheritedConstants": null
             }
           ],
+          "BaseType": null,
+          "Parameters": null,
+          "InheritedParameters": null,
+          "Constants": null,
+          "InheritedConstants": null
+        },
+        {
+          "ParameterName": "CombineIssuesByMaterialSid",
+          "IsGenericParameter": false,
+          "Comments": "Combine issues with the same MaterialSid into a single commit, default is true",
+          "TypeName": "Boolean",
+          "IsCwType": false,
+          "IsCwEnum": false,
+          "IsGenericType": false,
+          "IsNullable": true,
+          "DeclaringType": null,
+          "GenericArguments": null,
           "BaseType": null,
           "Parameters": null,
           "InheritedParameters": null,
